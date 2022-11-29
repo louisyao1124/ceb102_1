@@ -1,0 +1,19 @@
+
+https://stackoverflow.com/questions/48538814/angular-typescript-call-a-function-after-another-one-has-been-completed
+
+angular after function then
+
+async await
+
+angular synchronous function call
+
+https://dev.to/this-is-angular/synchronous-http-calls-in-angular-using-async-and-await-fdm
+
+
+async method()   
+{  
+  var x = await resolveAfter2Seconds(10);  
+  console.log(x); // 10  
+}
+
+https://javascript.plainenglish.io/use-promises-async-await-in-place-of-javascript-callbacks-5460ee7aa260
