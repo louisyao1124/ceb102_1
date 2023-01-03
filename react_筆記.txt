@@ -1,0 +1,282 @@
+
+【React.js入門 - 01】 前言 & 環境設置(上)
+npm install -g create-react-app
+
+https://ithelp.ithome.com.tw/articles/10214942
+
+https://www.runoob.com/react/react-install.html
+
+https://seanacnet.com/react/react-install-to-start/
+https://seanacnet.com/react/react-install-to-start/
+
+npx create-react-app rea1
+
+npx create-react-app rea2
+npx create-react-app rea3
+
+npx create-react-app rea4
+
+ C:\Users\louis\AppData\Roaming\npm-cache\_logs\
+
+Success! Created rea1 at D:\front_ends\rea\rea1
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd rea1
+  npm start
+
+Happy hacking!
+
+http://localhost:3000/
+
+https://reactjs.org/tutorial/tutorial.html
+
+https://www.telerik.com/kendo-react-ui/components/grid/
+
+
+安裝好了教學開始-官網的教學
+https://zh-hans.reactjs.org/
+
+https://www.telerik.com/kendo-react-ui/components/grid/
+
+https://www.telerik.com/kendo-react-ui/components/
+
+@progress/kendo-data-query
+1.5.5
+
+@progress/kendo-drawing
+1.11.0
+
+@progress/kendo-licensing
+1.2.0
+
+@progress/kendo-react-animation
+4.8.0
+
+@progress/kendo-react-buttons
+4.8.0
+
+@progress/kendo-react-data-tools
+4.8.0
+npm i @progress/kendo-react-data-tools
+
+npm i @progress/kendo-data-query
+
+npm i @progress/kendo-drawing
+
+@progress/kendo-react-dateinputs
+4.8.0
+
+@progress/kendo-react-dropdowns
+4.8.0
+
+@progress/kendo-react-excel-export
+4.8.0
+
+@progress/kendo-react-grid
+4.8.0
+
+@progress/kendo-react-inputs
+4.8.0
+
+@progress/kendo-react-intl
+4.8.0
+
+@progress/kendo-react-pdf
+4.8.0
+
+@progress/kendo-react-popup
+4.8.0
+
+@progress/kendo-react-treeview
+4.8.0
+
+cldr-core
+
+
+https://www.jianshu.com/p/b0d82b745e27
+
+使用create-react-app创建的react项目默认端口号为3000，在Windows上使用zookeeper时默认端口号也为3000，这个时候就必须修改其中一个了。
+
+修改前端create-react-app项目的端口号方法是：
+
+在package.json里面配置端口号：
+
+"scripts": {
+    "start": PORT=8888 "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+然而，我发现没有什么卵用。这个可能是由于版本的问题。
+
+另一个方法
+
+在node_modules/react-scripts/scripts/start.js文件中修改默认端口号3000。麻烦的是每次都要去改，因为它会变回3000。
+
+作者：帮我的鸵鸟盖个章
+链接：https://www.jianshu.com/p/b0d82b745e27
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+在node_modules/react-scripts/scripts/start.js文件中修改默认端口号3000。麻烦的是每次都要去改，因为它会变回3000。
+
+
+https://ithelp.ithome.com.tw/articles/10214945
+
+
+https://ithelp.ithome.com.tw/articles/10214945
+
+
+D:\front_ends\react\rea4>npm run build
+
+> rea4@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  41.34 KB  build\static\js\2.539b6e62.chunk.js
+  1.62 KB   build\static\js\3.884d5e80.chunk.js
+  1.16 KB   build\static\js\runtime-main.5b50034a.js
+  586 B     build\static\js\main.8379711a.chunk.js
+  556 B     build\static\css\main.a617e044.chunk.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+
+D:\front_ends\react\rea4>npm install -g serve
+
+added 89 packages, and audited 90 packages in 4s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\front_ends\react\rea4>serve -s build
+
+   ┌────────────────────────────────────────────────────┐
+   │                                                    │
+   │   Serving!                                         │
+   │                                                    │
+   │   - Local:            http://localhost:5000        │
+   │   - On Your Network:  http://192.168.50.252:5000   │
+   │                                                    │
+   │   Copied local address to clipboard!               │
+   │                                                    │
+   └────────────────────────────────────────────
+
+https://ithelp.ithome.com.tw/articles/10215459
+
+
+
+
+https://reactjs.org/docs/rendering-elements.html
+
+https://ithelp.ithome.com.tw/articles/10204955
+
+// 用這個
+
+https://tabvn.medium.com/add-redux-to-reactjs-app-create-react-app-35b94dffc60b
+
+https://www.npmjs.com/package/create-react-redux-router-app
+
+create-react-redux-router-app rea5
+
+
+create-react-app my-app
+
+
+npx create-react-app rea4
+
+npm install create-react-app
+
+npm install create-react-redux-router-app
+
+npx create-react-redux-router-app rea6
+
+npx create-react-redux-router-app rea7
+npx create-react-redux-router-app rea11
+
+npx create-react-router-app rea8
+
+npm i service-worker -component
+
+npm install react-router-dom
+
+https://www.codegrepper.com/code-examples/javascript/npm+install+react-router-dom
+
+https://ithelp.ithome.com.tw/articles/10205186
+
+
+https://upmostly.com/tutorials/how-to-run-react-project-with-vs-code-terminal
+
+
+npm install -g create-react-app
+
+這個ok
+
+https://ithelp.ithome.com.tw/articles/10204455
+重要
+https://ithelp.ithome.com.tw/articles/10200458
+
+mkdir rea12 && cd rea12
+
+
+
+這個好像可以
+https://ithelp.ithome.com.tw/articles/10214945
+https://ithelp.ithome.com.tw/articles/10216468
+
+
+
+
+
+https://www.talkingdotnet.com/create-react-app-5-steps-using-dotnet-cli/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
