@@ -1,0 +1,10 @@
+
+
+
+https://ad57475747.medium.com/linq%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-7-%E5%AF%A6%E4%BD%9Cleft-join-1-join%E8%88%87group-join-47e187d80894
+
+所以什麼是LINQ?
+https://ithelp.ithome.com.tw/articles/10194251
+
+
+https://dotblogs.com.tw/mis2000lab/2014/09/04/learning_linq_2_20140904
